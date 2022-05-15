@@ -20,11 +20,16 @@
     referrerpolicy="no-referrer"
   />
 
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
+
   <title>Monochrome</title>
 </head>
 
 <body>
-  <header class="header">
+  <header class="header-container">
     <section class="header-top">
       <section class="header-connect">
         <ul>
@@ -85,7 +90,7 @@
         href="/"
         title="Monochrome"
         class="header-logo"
-      >Monochrome</a>
+      ></a>
       <br><br>
 
       <section class="header-controls">
@@ -93,6 +98,13 @@
           action=""
           class="header-search"
         >
+
+          <button
+            type="submit"
+            name="submit"
+            title="Search"
+          ><i class="fa-solid fa-magnifying-glass"></i></button>
+
           <input
             type="search"
             name="search"
@@ -100,11 +112,6 @@
             placeholder="Search"
           >
 
-          <button
-            type="submit"
-            name="submit"
-            title="Search"
-          ><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
 
         <ul>
@@ -126,14 +133,13 @@
             </a>
           </li>
 
-          <li class="cart-control">
+          <li class="cart-controls">
             <a
               href="/"
               title="Cart"
             >
               <i class="fa-solid fa-cart-shopping"></i>
 
-              <span class="qty">2</span>
             </a>
           </li>
         </ul>
@@ -144,6 +150,7 @@
     <!-- ./header-top -->
 
     <section class="header-bottom">
+      <div class="rectangle"></div>
       <ul>
         <li>
           <a
@@ -192,14 +199,15 @@
   </header>
   <!-- ./header -->
 
-  <main class="content-main">
+  <main class="content-main container">
     <section class="home-catalog-preview">
+      <div class="line_1"></div>
       <header>
         <h1>New Stuff</h1>
       </header>
 
       <section class="product-tiles">
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -242,7 +250,7 @@
         </article>
         <!-- ./product-tile -->
 
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -285,7 +293,7 @@
         </article>
         <!-- ./product-tile -->
 
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -328,7 +336,7 @@
         </article>
         <!-- ./product-tile -->
 
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -376,12 +384,13 @@
     <!-- ./home-catalog-preview -->
 
     <section class="home-catalog-preview">
+      <div class="line_2"></div>
       <header>
         <h1>Most loved</h1>
       </header>
 
       <section class="product-tiles">
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -424,7 +433,7 @@
         </article>
         <!-- ./product-tile -->
 
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -467,7 +476,7 @@
         </article>
         <!-- ./product-tile -->
 
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -510,7 +519,7 @@
         </article>
         <!-- ./product-tile -->
 
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -592,12 +601,13 @@
     <!-- ./home-content -->
 
     <section class="home-catalog-preview">
+      <div class="line_3"></div>
       <header>
         <h1>Men's</h1>
       </header>
 
       <section class="product-tiles">
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -640,7 +650,7 @@
         </article>
         <!-- ./product-tile -->
 
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -683,7 +693,7 @@
         </article>
         <!-- ./product-tile -->
 
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -726,7 +736,7 @@
         </article>
         <!-- ./product-tile -->
 
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -784,12 +794,13 @@
     <!-- ./home-catalog-preview -->
 
     <section class="home-catalog-preview">
+      <div class="line_4"></div>
       <header>
         <h1>Women's</h1>
       </header>
 
       <section class="product-tiles">
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -832,7 +843,7 @@
         </article>
         <!-- ./product-tile -->
 
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -875,7 +886,7 @@
         </article>
         <!-- ./product-tile -->
 
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -918,7 +929,7 @@
         </article>
         <!-- ./product-tile -->
 
-        <article class="product tile">
+        <article class="product-tile">
           <header class="porduct-tile-header">
             <div class="product-tile-image">
               <a
@@ -978,166 +989,168 @@
   <!-- ./content-main -->
 
   <footer class="footer">
-    <section class="footer-contact">
-      <ul>
-        <li>Call us</li>
+    <div class="rectangle2">
+      <section class="footer-contact">
+        <ul>
+          <li>Call us</li>
 
-        <li>
-          <a
-            href="/"
-            title="Call us"
-          >+44 (0)10 2345 6789</a>
-        </li>
+          <li>
+            <a
+              href="/"
+              title="Call us"
+            >+44 (0)10 2345 6789</a>
+          </li>
 
-        <li>
-          <a
-            href="/"
-            title="Email us"
-          >Email Customer Care</a>
-        </li>
+          <li>
+            <a
+              href="/"
+              title="Email us"
+            >Email Customer Care</a>
+          </li>
 
-        <li>
-          <a
-            href="/"
-            title="Mobile Version"
-          >See Mobile Version</a>
-        </li>
-      </ul>
-    </section>
-    <!-- ./footer-contact -->
+          <li>
+            <a
+              href="/"
+              title="Mobile Version"
+            >See Mobile Version</a>
+          </li>
+        </ul>
+      </section>
+      <!-- ./footer-contact -->
 
-    <nav class="footer-nav">
-      <ul>
-        <li>
-          <a
-            href="/"
-            title="Style & Fit Advice"
-          >Style & Fit Advice</a>
-        </li>
-
-        <li>
-          <a
-            href="/"
-            title="Faqs"
-          >Faqs</a>
-        </li>
-
-        <li>
-          <a
-            href="/"
-            title="Delivery"
-          >Delivery</a>
-        </li>
-
-        <li>
-          <a
-            href="/"
-            title="Exchanges & Returns"
-          >Exchanges & Returns</a>
-        </li>
-      </ul>
-
-      <ul>
-        <li>
-          <a
-            href="/"
-            title="About Us"
-          >About Us</a>
-        </li>
-
-        <li>
-          <a
-            href="/"
-            title="Careers"
-          >Careers</a>
-        </li>
-
-        <li>
-          <a
-            href="/"
-            title="Affiliates"
-          >Affiliates</a>
-        </li>
-
-        <li>
-          <a
-            href="/"
-            title="Advertising"
-          >Advertising</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- ./footer-nav -->
-
-    <section class="footer-connect">
-      <form
-        action=""
-        class="footer-newsletter"
-      >
-        <label for="newsletter">Sign up for our Newsletter</label><br>
-
-        <input
-          type="email"
-          name="email"
-          id="email"
-        ><br>
-
-        <button
-          type="submit"
-          name="submit"
-          title="Submit"
-        >Submit</button>
-      </form>
-
-      <section class="footer-social">
+      <nav class="footer-nav">
         <ul>
           <li>
             <a
               href="/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="social media"
-            >
-              <i class="fa-brands fa-youtube"></i>
-            </a>
+              title="Style & Fit Advice"
+            >Style & Fit Advice</a>
           </li>
 
           <li>
             <a
               href="/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="social media"
-            >
-              <i class="fa-brands fa-twitter"></i>
-            </a>
+              title="Faqs"
+            >Faqs</a>
           </li>
 
           <li>
             <a
               href="/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="social media"
-            >
-              <i class="fa-brands fa-facebook-f"></i>
-            </a>
+              title="Delivery"
+            >Delivery</a>
           </li>
 
-          <li><a
+          <li>
+            <a
               href="/"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="social media"
-            >
-              <i class="fa-brands fa-instagram"></i>
-            </a>
+              title="Exchanges & Returns"
+            >Exchanges & Returns</a>
           </li>
         </ul>
+
+        <ul>
+          <li>
+            <a
+              href="/"
+              title="About Us"
+            >About Us</a>
+          </li>
+
+          <li>
+            <a
+              href="/"
+              title="Careers"
+            >Careers</a>
+          </li>
+
+          <li>
+            <a
+              href="/"
+              title="Affiliates"
+            >Affiliates</a>
+          </li>
+
+          <li>
+            <a
+              href="/"
+              title="Advertising"
+            >Advertising</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- ./footer-nav -->
+
+      <section class="footer-connect">
+        <form
+          action=""
+          class="footer-newsletter"
+        >
+          <label for="newsletter">Sign up for our Newsletter</label><br>
+
+          <input
+            type="email"
+            name="email"
+            id="email"
+          ><br>
+
+          <button
+            type="submit"
+            name="submit"
+            title="Submit"
+          >Submit</button>
+        </form>
+
+        <section class="footer-social">
+          <ul>
+            <li>
+              <a
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="social media"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="social media"
+              >
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="social media"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+
+            <li><a
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="social media"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <!-- ./footer-social -->
       </section>
-      <!-- ./footer-social -->
-    </section>
-    <!-- ./footer-connect -->
+      <!-- ./footer-connect -->
+    </div>
   </footer>
   <!-- ./footer -->
 
